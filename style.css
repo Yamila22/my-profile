@@ -1,0 +1,168 @@
+h1 {
+color: white;
+text-align: left;
+}
+
+p {
+	font-size: 20px;
+	color: whitesmoke;
+	opacity: 0.8;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+	background: #F2F2F2;
+	margin: 0;
+}
+
+.fa-facebook-square {
+	color: pink;
+	font-size: 50px;
+}
+
+.fa-facebook-square:hover {
+	color: hotpink;
+}
+
+
+.fa-facebook-square:before {
+    content: "\f082";
+}
+
+
+.fa-instagram-square {
+	color: pink;
+	font-size: 50px;
+}
+
+.fa-intagram-square:hover {
+	color: hotpink;
+}
+
+.banner{
+	background-image: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.2)), url('images/imagen18.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 200px 200px;
+}
+
+.banner-columna {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	grid-auto-rows: minmax(100px, auto);
+
+
+
+}
+
+.btn-banner {
+	background-color: #0D0D0D;
+	border-radius: 10px;
+	color: white;
+	padding: 20px 40px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+.img {
+	left: auto;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card-white {
+	background: white;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+.card-white img {
+	width:  180px;
+	height: 180px;
+	object-fit: cover;
+	object-position: bottom;
+	border-radius: 4px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    opacity: 0.8;
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+}
